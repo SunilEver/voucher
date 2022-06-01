@@ -1,34 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ExecuteMsg",
-  "anyOf": [
+  "oneOf": [
     {
       "type": "object",
       "required": [
-        "increment"
+        "transfer"
       ],
       "properties": {
-        "increment": {
-          "type": "object"
-        }
-      },
-      "additionalProperties": false
-    },
-    {
-      "type": "object",
-      "required": [
-        "reset"
-      ],
-      "properties": {
-        "reset": {
+        "transfer": {
           "type": "object",
           "required": [
-            "count"
+            "recipient"
           ],
           "properties": {
-            "count": {
-              "type": "integer",
-              "format": "int32"
+            "recipient": {
+              "type": "string"
             }
           }
         }
