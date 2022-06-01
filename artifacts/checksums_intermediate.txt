@@ -1,0 +1,1 @@
+6f5aaba45b4e2626932be74148f9b6cf7df90bc8e227bb3fa45f03787d3f37e1  ./target/wasm32-unknown-unknown/release/voucher.wasm
