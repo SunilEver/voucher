@@ -5,3 +5,5 @@
 - code id : 6
 - `NODE="http://mainnet-full-node-01.gcp.service.cudo.org:26657"`
 - `CHAIN_ID="cudos-testnet-public-3"`
+
+*Team* : gifee 
